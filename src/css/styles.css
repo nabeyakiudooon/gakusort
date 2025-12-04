@@ -1,17 +1,19 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 16px;
+  color: #415066;
+  background-color: #f0fafc;
 }
 
 .container {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .progress {
-  margin: 1em auto;
+  margin: 1em;
   width: 500px;
   display: none;
 }
@@ -20,21 +22,23 @@ body {
   position: relative;
   width: 492px;
   border: 1px solid black;
+  margin-top: 5px;
   padding: 3px;
-  margin: 2px 0px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .progresstext {
   position: absolute;
   width: 492px;
-  margin: 3px 0px;
+  margin: 4px 0px;
   text-align: center;
   font-size: 0.7em;
 }
 
 .progressfill {
-  height: 20px;
-  background-color: lightgreen;
+  height: 21px;
+  background-color: #ebdcb5;
   width: 0%;
 }
 
@@ -47,19 +51,23 @@ body {
 }
 
 .button {
-  border: 1px solid black;
+  margin-left: 2px;
+  border: 1px solid #80C1E3;
+  border-radius: 5px;
   text-align: center;
   padding: 10%;
   grid-column: 2 / 3;
   cursor: pointer;
+  background-color: white;
 }
 
 .starting.start.button {
-  grid-row: span 6;
+  grid-row: span 3;
+  display: none;
 }
 
 .starting.load.button {
-  grid-row: span 3;
+  grid-row: span 2;
   display: none;
 }
 
@@ -118,10 +126,17 @@ body {
   cursor: pointer;
 }
 
+.sorter > .image:hover{
+  border: 1px solid #FACC2F;
+  box-shadow: 0 0 5px #FACC2F;
+}
+
 .sorter > .text {
   width: 120px;
   height: 60px;
   display: none;
+  color: white;
+  background-color: 
 }
 
 .sorter > .text > p {
