@@ -25,98 +25,98 @@ dataSet[dataSetVersion].characterData = [
     name: "Saki Hanami",
     img: "sakihanami.png",
     opts: {
-      series: [ "GAKUEN" ],
+      playable: [ "GAKUEN" ],
     }
   },
   {
     name: "Temari Tsukimura",
     img: "temaritsukimura.png",
     opts: {
-      series: [ "GAKUEN"],
+      playable: [ "GAKUEN"],
     }
   },
   {
     name: "Kotone Fujita",
     img: "kotonefujita.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "Rinami Himesaki",
     img: "rinamihimesaki.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     },
   },
   {
     name: "Hiro Shirosawa",
     img: "hiroshinosawa.png",
     opts: {
-      series: [ "GAKUEN" ],
+      playable: [ "GAKUEN" ],
     }
   },
   {
     name: "Ume Hanami",
     img: "umehanami.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "Sumika Shiun",
     img: "sumikashiun.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "Lilja Katsuragi",
     img: "liljakatsuragi.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "China Kuramoto",
     img: "chinakuramoto.png",
     opts: {
-      series: [ "GAKUEN" ],
+      playable: [ "GAKUEN" ],
     }
   },
   {
     name: "Mao Arimura",
     img: "maoarimura.png",
     opts: {
-      series: ["maoarimura"],
+      playable: ["maoarimura"],
     }
   },
   {
     name: "Sena Juo",
     img: "senajuo.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "Misuzu Hataya",
     img: "misuzuzhataya.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
 	  }
   },
   {
     name: "Tsubame Amaya",
     img: "tsubameamaya.png",
     opts: {
-      series: ["GAKUEN"],
+      playable: ["GAKUEN"],
     }
   },
   {
     name: "Nadeshiko Aoi",
     img: "NadeshikoAoi.png",
     opts: {
-      series: ["NPC"],
+      playable: ["NPC"],
 	  100Pro: true
     }
   },
@@ -124,7 +124,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Gekka Shirakusa",
     img: "GekkaShirakusa.png",
     opts: {
-      series: ["NPC"],
+      playable: ["NPC"],
       100Pro: true
     }
   },
@@ -132,7 +132,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Shion Shirakusa",
     img: "ShionShirakusa.png",
     opts: {
-      series: ["NPC"],
+      playable: ["NPC"],
 	  100Pro : true
     }
   },
@@ -140,7 +140,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Rinha Kaya",
     img: "RinhaKaya.png",
     opts: {
-      series: ["NPC"],
+      playable: ["NPC"],
 	  100Pro : true
     }
   },
