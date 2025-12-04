@@ -4,19 +4,20 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Playable Status",
-    key: "playable",
-    tooltip: "Check this to restrict to certain playable statuses.",
+    name: "Filter by Academy",
+    key: "academy",
+    tooltip: "Check this to restrict to certain academies.",
     checked: false,
     sub: [
-      { name: "100Pro Idols", key: "NPC" }, 
-	  { name: "GAKUEN Idols", key: "GAKUEN" },		  
+      { name: "100Production", key: "NPC" }, 
+	  { name: "Hatsuboshi Gakuen ", key: "GAKUEN" },		  
     ]
   },
   {
     name: "Remove 100Pro IDOLS",
     key: "100Pro",
     tooltip: "Check this to remove all currently known 100Pro IDOLS."
+	checked: false
   }
 ];
 
@@ -25,98 +26,98 @@ dataSet[dataSetVersion].characterData = [
     name: "Saki Hanami",
     img: "sakihanami.png",
     opts: {
-      playable: [ "GAKUEN" ],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Temari Tsukimura",
     img: "temaritsukimura.png",
     opts: {
-      playable: [ "GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Kotone Fujita",
     img: "kotonefujita.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Rinami Himesaki",
     img: "rinamihimesaki.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     },
   },
   {
     name: "Hiro Shirosawa",
     img: "hiroshinosawa.png",
     opts: {
-      playable: [ "GAKUEN" ],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Ume Hanami",
     img: "umehanami.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Sumika Shiun",
     img: "sumikashiun.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Lilja Katsuragi",
     img: "liljakatsuragi.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "China Kuramoto",
     img: "chinakuramoto.png",
     opts: {
-      playable: [ "GAKUEN" ],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Mao Arimura",
     img: "maoarimura.png",
     opts: {
-      playable: ["maoarimura"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Sena Juo",
     img: "senajuo.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Misuzu Hataya",
     img: "misuzuzhataya.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
 	  }
   },
   {
     name: "Tsubame Amaya",
     img: "tsubameamaya.png",
     opts: {
-      playable: ["GAKUEN"],
+      academy: ["GAKUEN"],
     }
   },
   {
     name: "Nadeshiko Aoi",
     img: "NadeshikoAoi.png",
     opts: {
-      playable: ["NPC"],
+      academy: ["NPC"],
 	  100Pro: true
     }
   },
@@ -124,7 +125,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Gekka Shirakusa",
     img: "GekkaShirakusa.png",
     opts: {
-      playable: ["NPC"],
+      academy: ["NPC"],
       100Pro: true
     }
   },
@@ -132,7 +133,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Shion Shirakusa",
     img: "ShionShirakusa.png",
     opts: {
-      playable: ["NPC"],
+      academy: ["NPC"],
 	  100Pro : true
     }
   },
@@ -140,7 +141,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Rinha Kaya",
     img: "RinhaKaya.png",
     opts: {
-      playable: ["NPC"],
+      academy: ["NPC"],
 	  100Pro : true
     }
   },
