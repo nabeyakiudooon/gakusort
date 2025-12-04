@@ -100,7 +100,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Misuzu Hataya",
-    img: "misuzuzhataya.png",
+    img: "misuzuhataya.png",
     opts: {
       academy: ["GAKUEN"],
 	  }
