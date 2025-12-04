@@ -1,4 +1,3 @@
-// dataSetVersion = "2025-12-04"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSetVersion = "2025-12-04";
 dataSet[dataSetVersion] = {};
 
@@ -16,7 +15,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove 100Pro IDOLS",
     key: "100Pro",
-    tooltip: "Check this to remove all currently known 100Pro IDOLS."
+    tooltip: "Check this to remove all currently known 100Pro IDOLS.",
 	checked: false
   }
 ];
@@ -118,7 +117,7 @@ dataSet[dataSetVersion].characterData = [
     img: "NadeshikoAoi.png",
     opts: {
       academy: ["NPC"],
-	  100Pro: true
+	  "100Pro": true
     }
   },
   {
@@ -126,7 +125,7 @@ dataSet[dataSetVersion].characterData = [
     img: "GekkaShirakusa.png",
     opts: {
       academy: ["NPC"],
-      100Pro: true
+      "100Pro": true
     }
   },
   {
@@ -134,7 +133,7 @@ dataSet[dataSetVersion].characterData = [
     img: "ShionShirakusa.png",
     opts: {
       academy: ["NPC"],
-	  100Pro : true
+	  "100Pro" : true
     }
   },
   {
@@ -142,8 +141,7 @@ dataSet[dataSetVersion].characterData = [
     img: "RinhaKaya.png",
     opts: {
       academy: ["NPC"],
-	  100Pro : true
+	  "100Pro" : true
     }
-  },
-  {
+  }
 ];
